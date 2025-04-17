@@ -4,8 +4,9 @@ This repository enables Runetale to establish peer-to-peer handshakes between co
 # enviroment variables
 To configure the application, copy the `.env.example` file and rename it to `.env`:
 
-```bash
+``` shell
 cp .env.example .env
+```
 
 Run
 
