@@ -1,0 +1,12 @@
+version: "3.8"
+
+services:
+  runetale-handshake-server:
+    container_name: runetale-handshake-server
+    build:
+      context: .
+    ports:
+      - "10000:10000"
+    env_file:
+      - .env
+    restart: always
